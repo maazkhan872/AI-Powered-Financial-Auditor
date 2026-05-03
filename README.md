@@ -1,109 +1,30 @@
-Smartledger AI – Automated Financial Analysis & Fraud Detection Auditor:
-Project Overview:
+SmartLedger AI: Automated Financial Auditing & Fraud Detection:
+SmartLedger AI is a sophisticated, end-to-end financial auditing ecosystem designed to bridge the gap between traditional accounting and modern data science. By integrating machine learning, OCR, and statistical heuristics, the platform automates the heavy lifting of data validation, anomaly detection, and compliance auditing.
 
-This project is an end-to-end AI-based financial auditing system that automates data validation, anomaly detection, fraud analysis, and compliance checking. It combines financial rule checks, machine learning models, OCR document processing, and visual analytics to simulate a real-world financial audit workflow.
+In an era where financial datasets are becoming too massive for manual oversight, SmartLedger AI serves as an automated "digital auditor," simulating a real-world workflow to identify errors, inconsistencies, and high-risk fraudulent patterns with precision.
 
-The system is designed to help auditors and analysts identify errors, inconsistencies, unusual patterns, and potential fraud in large financial datasets and documents.
+🚀 Core Capabilities
+🔍 Intelligent Data Governance
+Automated Normalization: Standardizes disparate record types, dates, and financial periods for seamless cross-comparisons.
 
-Key Objectives:
+Sanitization Engine: Detects duplicate account IDs and handles missing value analysis to ensure data integrity before the audit begins.
 
-Automate financial data cleaning and validation
+⚖️ Forensic Audit & Compliance
+Heuristic Reconciliation: Compares parent accounts against totals to identify rule-based mismatches automatically.
 
-Detect outliers, mismatched totals, and suspicious transactions
+Benford’s Law Simulation: Applies statistical distribution analysis to detect unnatural number patterns, a hallmark of manual transaction manipulation.
 
-Analyze financial health using ratios and trends
+Financial Health Benchmarking: Computes critical liquidity and solvency metrics, including Current Ratio and Debt-to-Equity Ratio.
 
-Extract financial data from PDFs, images, and Excel files
+🤖 Advanced Machine Learning Pipeline
+Predictive Fraud Classification: Leverages high-performance ensembles like XGBoost and Random Forest to categorize transactions.
 
-Classify financial records using AI models
+Imbalanced Data Handling: Utilizes SMOTE (Synthetic Minority Over-sampling Technique) and upsampling to ensure the model remains sensitive to rare fraud events.
 
-Generate audit and compliance reports automatically
+Model Interpretability: Incorporates feature importance analysis and confusion matrices to provide transparency behind every AI-generated "Red Flag."
 
-Features:
-1. Data Validation & Cleaning
+📄 OCR & Document Intelligence
+Multi-Source Ingestion: Seamlessly parses financial data from PDFs, Excel sheets, and images.
 
-Duplicate Account ID detection
+Computer Vision: Powered by PaddleOCR and PyMuPDF to extract unstructured data from invoices and receipts, transforming them into auditable digital records.
 
-Missing value analysis
-
-Record type normalization and validation
-
-Date and period standardization
-
-Outlier detection using statistical thresholds
-
-2. Financial Audit Checks:
-
-Parent account vs total reconciliation
-
-Rule-based mismatch detection
-
-AI-generated audit suggestions
-
-Financial ratio calculations (Current Ratio, Debt-Equity Ratio)
-
-Benford’s Law simulation for fraud pattern analysis
-
-3. Visual Analytics:
-
-Time-series transaction analysis
-
-Distribution analysis by record type
-
-Correlation heatmaps
-
-Fraud and error label distribution charts
-
-4. OCR & Document Automation:
-
-Invoice and document text extraction using PaddleOCR
-
-PDF text parsing using PyMuPDF
-
-Excel data ingestion
-
-Automatic file type detection and processing
-
-5. Machine Learning & AI:
-
-Class imbalance handling using Upsampling and SMOTE
-
-Fraud and anomaly classification using:
-
-Random Forest
-
-XGBoost
-
-Model evaluation with classification reports and confusion matrices
-
-Feature importance analysis for model interpretability
-
-6. Audit Reporting & Collaboration:
-
-Automated audit report generation (CSV & Excel)
-
-Timestamped reports for traceability
-
-Reviewer comments and approval tracking
-
-IFRS compliance validation using reference templates
-
-Technologies Used:
-
-Python
-
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
-Scikit-learn
-
-XGBoost
-
-PaddleOCR
-
-PyMuPDF
-
-OpenPyXL
-
-Imbalanced-learn (SMOTE)
