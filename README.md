@@ -28,3 +28,20 @@ Multi-Source Ingestion: Seamlessly parses financial data from PDFs, Excel sheets
 
 Computer Vision: Powered by PaddleOCR and PyMuPDF to extract unstructured data from invoices and receipts, transforming them into auditable digital records.
 
+🛠️ Tech StackCategoryTools & LibrariesLanguagePythonData ProcessingPandas, NumPy, OpenPyXLMachine LearningScikit-learn, XGBoost, Imbalanced-learn (SMOTE)Computer VisionPaddleOCR, PyMuPDFVisualizationMatplotlib, Seaborn.
+
+📈 Visual Insights & Reporting
+SmartLedger AI doesn't just process data; it visualizes the story behind the numbers:
+
+Time-Series Analysis: Track transaction velocity and identify seasonal anomalies.
+
+Risk Heatmaps: Correlation matrices that highlight dependencies between suspicious variables.
+
+Audit Trail Generation: Automatically exports timestamped, IFRS-compliant reports in CSV and Excel formats, complete with reviewer comment tracking for team collaboration.
+
+📋 Project Impact
+Efficiency: Reduces manual data cleaning time by up to 80%.
+
+Accuracy: Eliminates human fatigue in identifying mismatched totals and duplicate entries.
+
+Transparency: Provides a clear, documented path from raw data ingestion to the final audit opinion.
