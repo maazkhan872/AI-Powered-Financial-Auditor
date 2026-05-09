@@ -3,6 +3,14 @@ SmartLedger AI is a sophisticated, end-to-end financial auditing ecosystem desig
 
 In an era where financial datasets are becoming too massive for manual oversight, SmartLedger AI serves as an automated "digital auditor," simulating a real-world workflow to identify errors, inconsistencies, and high-risk fraudulent patterns with precision.
 
+🏗 System Architecture
+The system follows a modular pipeline designed for scalability:
+
+1: Ingestion Layer: Multi-format support (PDF/XLSX/Images) via PaddleOCR & PyMuPDF.
+2: Validation Layer: Statistical cleaning and Benford’s Law application.
+3: Intelligence Layer: Fraud classification using XGBoost & SMOTE for class balancing.
+4: Reporting Layer: IFRS-compliant exports with visual audit trails.
+
 🚀 Core Capabilities
 🔍 Intelligent Data Governance
 Automated Normalization: Standardizes disparate record types, dates, and financial periods for seamless cross-comparisons.
