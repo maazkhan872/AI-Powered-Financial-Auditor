@@ -47,6 +47,15 @@ Risk Heatmaps: Correlation matrices that highlight dependencies between suspicio
 
 Audit Trail Generation: Automatically exports timestamped, IFRS-compliant reports in CSV and Excel formats, complete with reviewer comment tracking for team collaboration.
 
+📊 Performance Analytics
+The project includes comprehensive visual dashboards:
+
+Time-Series Velocity: Detects unusual spikes in transaction volume.
+
+Correlation Heatmaps: Identifies hidden relationships between suspicious account IDs.
+
+Risk Distribution: Visualizes the spread of "Clean" vs. "Flagged" records.
+
 📋 Project Impact
 Efficiency: Reduces manual data cleaning time by up to 80%.
 
